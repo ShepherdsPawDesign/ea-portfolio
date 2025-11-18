@@ -105,6 +105,19 @@ main {
     margin: 5px 20px 20px 20px;
 }
 
+.column h2 a {
+    /* 通常時の設定: text-decorationを非表示に */
+    text-decoration: none;
+    /* リンクの色を、親要素である h2 の色 (rgb(166, 156, 148)) と同じにする */
+    color: inherit; 
+}
+
+.column h2 a:hover {
+    /* マウスオーバー時の設定: text-decorationを下線のみにする */
+    text-decoration: underline;
+    /* color: inherit; は維持されるため、色が変わらない */
+}
+
 .column p {
     color: rgb(147, 138, 131);
     margin: 5px 20px 20px 20px;
