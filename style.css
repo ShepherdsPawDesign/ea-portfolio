@@ -132,6 +132,39 @@ main {
     background-color: rgb(120, 95, 75);
 }
 
+.left .box1 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+}
+
+.imagel1 {
+    background-image: url(images/ChronoLogoBackgroundGrey.png); 
+}
+.imagel2 {
+    background-image: url(images/kappatsuLogo.png); 
+}
+.imagel3 {
+    background-image: url(images/NordicDreamsLogoNoLetter.png); 
+}
+.imagel4 {
+    background-image: url(images/geoDog.png); 
+}
+.imagel5 {
+    background-image: url(images/GeoCat.png); 
+}
+.imagel6 {
+    background-image: url(images/ElkLogo.png); 
+}
+.imagel7 {
+    background-image: url(images/MocktailLogo.png); 
+}
+
 /* Center column */
 .center {
     display: flex;
@@ -151,17 +184,23 @@ main {
     border: 1px solid #ccc;
 }
 
-.image1 {
+.imagec1 {
     background-image: url(images/canisminor.png); 
 }
-.image2 {
-    background-image: url(images/AzwkhBagMockup.png); 
+.imagec2 {
+    background-image: url(images/AutumnDog1.png); 
 }
-.image3 {
-    background-image: url(images/CuriousPawsMaskingTape.png); 
+.imagec3 {
+    background-image: url(images/CatDogBooks.png); 
 }
-.image4 {
-    background-image: url(images/geoDog.png); 
+.imagec4 {
+    background-image: url(images/YuruWolves2.png); 
+}
+.imagec5 {
+    background-image: url(images/Cats&BooksLines.png); 
+}
+.imagec6 {
+    background-image: url(images/DrNodaENTCharactersRGB.jpg); 
 }
 
 /* Right column */
@@ -176,11 +215,14 @@ main {
     border: 1px solid #ccc;
 }
 
-.image5 {
+.imager1 {
     background-image: url(images/PizzaToriMenu.png); 
 }
-.image6 {
+.imager2 {
     background-image: url(images/DogMagazine2.png); 
+}
+.imager3 {
+    background-image: url(images/DogMagazine3.png); 
 }
 
 footer {
